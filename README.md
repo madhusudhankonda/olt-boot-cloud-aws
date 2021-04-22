@@ -80,7 +80,7 @@ On the other hand [`olt-boot-cloud-aws-v2`](https://github.com/madhusudhankonda/
 - [Spring Cloud AWS New Home (awspring.io)](https://docs.awspring.io/spring-cloud-aws/docs/2.3.1/reference/html/index.html)
 - [Spring Cloud AWS Old Home](https://spring.io/projects/spring-cloud-aws)
 
-### AWS
+### AWS
 - [AWS Home Console](https://aws.amazon.com/)
 - [AWS SDK for Java Home](https://docs.aws.amazon.com/sdk-for-java/index.html)
 
@@ -91,3 +91,11 @@ On the other hand [`olt-boot-cloud-aws-v2`](https://github.com/madhusudhankonda/
 ### AWS SDK 2.x
 - [AWS SDK for Java 2.x Developer Guide](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html)
 - [AWS SDK for Java 2.x JavaDoc/API Reference](https://sdk.amazonaws.com/java/api/latest/)
+
+### AWS Services
+- [Identity and Access Management](https://aws.amazon.com/iam)
+- [Simple Queue Service](https://aws.amazon.com/sqs)
+- [Simple Notification Service](https://aws.amazon.com/sns)
+- [Relational Database Service](https://aws.amazon.com/rds)
+- [Simple Storage Service](https://aws.amazon.com/s3)
+
