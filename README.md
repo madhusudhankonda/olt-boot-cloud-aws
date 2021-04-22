@@ -36,7 +36,20 @@ Depending OS, download your CLI binary from here [AWS CLI](https://aws.amazon.co
 
 Once downloaded, follow the instructions to get it installed. Issue `aws s3 ls` command - you may see a list (or none) of S3 buckets as shown here in the image:![S3 buckets list](https://user-images.githubusercontent.com/1698230/115707485-c14d6a80-a366-11eb-87f5-adc2813162eb.png)
 
+### Configure the Environment 
 
+It's time to configure our environment to start developing projects to consume AWS.
+
+At your command prompt/terminal, issue the `aws configure` command and follow the instructions. 
+
+It asks for your access key and secret key - enter them at the command prompt.
+
+It will also ask for Region - input yoru appropriate region. The regions are provided in the form of EU-WEST-2, US-EAST-1, etc., as shown in the image here:
+![image](https://user-images.githubusercontent.com/1698230/115708122-826be480-a367-11eb-86f5-fb1568d030e0.png). 
+
+CLI will create a `.aws` folder in your home directory.
+
+Once the configuration is done, you should see two files in the user's home directory `~/.aws` created by CLI - the `credentials` and `config` file - keys and region documented in those files respectively. If you are not sure where these are, you can visit <your_home_directory>/.aws folder
 
 
 
