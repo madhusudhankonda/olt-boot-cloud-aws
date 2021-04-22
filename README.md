@@ -77,7 +77,7 @@ On the other hand [`olt-boot-cloud-aws-v2`](https://github.com/madhusudhankonda/
 ## Resources
 
 ### Spring
-- (Spring Cloud AWS New Home (awspring.io))[https://docs.awspring.io/spring-cloud-aws/docs/2.3.1/reference/html/index.html]
+(Spring Cloud AWS New Home (awspring.io) )[https://docs.awspring.io/spring-cloud-aws/docs/2.3.1/reference/html/index.html]
 - (Spring Cloud AWS Old Home)[https://spring.io/projects/spring-cloud-aws]
 
 ### AWS
