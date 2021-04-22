@@ -93,9 +93,18 @@ On the other hand [`olt-boot-cloud-aws-v2`](https://github.com/madhusudhankonda/
 - [AWS SDK for Java 2.x JavaDoc/API Reference](https://sdk.amazonaws.com/java/api/latest/)
 
 ## Training Code
+### AWS SDK 1.x 
 | AWS Service | GitHub Code |
 |--------------|--------------|
 |Simple Queue Service|[SQS Code](https://github.com/madhusudhankonda/olt-boot-cloud-aws/tree/main/sqs)|
+|Simple Notification Service|[SNS Code](https://github.com/madhusudhankonda/olt-boot-cloud-aws/tree/main/sns)|
+|Relational Databse Service|[RDS Code](https://github.com/madhusudhankonda/olt-boot-cloud-aws/tree/main/rds)|
+|Simple Storage Service|[S3 Code](https://github.com/madhusudhankonda/olt-boot-cloud-aws/tree/main/s3)|
+
+### AWS SDK 2.x 
+| AWS Service | GitHub Code |
+|--------------|--------------|
+|Simple Queue Service|[SQS Code](https://github.com/madhusudhankonda/olt-boot-cloud-aws-v2/tree/main/sqs)|
 
 ### AWS Services
 - [Identity and Access Management](https://aws.amazon.com/iam)
