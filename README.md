@@ -21,10 +21,18 @@ Our programs interact with the AWS services programmatically. We need to create 
 - Provide the group name and add as Administrator (be aware - this will grant the full access to all of the services - make sure you make granular level access instead). Navigate to next page, which enables the Tags. We can ignore tags for these exercises.
 ![Administrative Group](https://user-images.githubusercontent.com/1698230/115703586-35394400-a362-11eb-8bc7-ea56c771f853.png)
 - Ignore Tags and go to Review page. Once satisfied, click on the Create User button, which will create the user and outputs the keys to the console as shown below:
-- ![New User](https://user-images.githubusercontent.com/1698230/115704052-c7414c80-a362-11eb-8aab-78155e97773e.png)
+![New User](https://user-images.githubusercontent.com/1698230/115704052-c7414c80-a362-11eb-8aab-78155e97773e.png)
 
-- As you can see this page outputs the access and secret keys. Copy them to your running notes. These key are only shown once - you cannot retive them once you navigate away from this page. Of coruse, you can re-create them which will generate a brand new set of keys anyway. It is a good idea to save, download or email them to yourself. Click on the Download as CSV button to download or follow instructions to receive them by email
+- As you can see this page outputs the access and secret keys. Copy them to your running notes. These key are only shown once - you cannot retive them once you navigate away from this page. Of coruse, you can re-create them which will generate a brand new set of keys anyway. It is a good idea to save, download or email them to yourself. Click on the Download as CSV button to download or follow instructions to receive them by email.
 
+### AWS CLI (Command Line Utility)
+
+Now that we have our AWS Account created and keys generated, it's time to configure them on my machine for development. 
+
+The AWS SDK for Java expects us to provide few properties - access key, secret key and region. There are multitude ways of configuring our SDK to pick up these keys, one way being asking AWS CLI to configure us with credentials file as pofiles in our local home directory. Let's follow the steps to get the AWS CLI downloaded and installed. Once it's ready, we use it to configure our environment.
+
+#### Download AWS CLI
+Based on your OS, download your CLI from here
 
 
 
