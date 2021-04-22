@@ -92,6 +92,10 @@ On the other hand [`olt-boot-cloud-aws-v2`](https://github.com/madhusudhankonda/
 - [AWS SDK for Java 2.x Developer Guide](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html)
 - [AWS SDK for Java 2.x JavaDoc/API Reference](https://sdk.amazonaws.com/java/api/latest/)
 
+## Training Code
+| AWS Service | GitHub Code |
+[Simple Queue Service](https://aws.amazon.com/sqs)|[SQS Code](https://github.com/madhusudhankonda/olt-boot-cloud-aws/tree/main/sqs)
+
 ### AWS Services
 - [Identity and Access Management](https://aws.amazon.com/iam)
 - [Simple Queue Service](https://aws.amazon.com/sqs)
