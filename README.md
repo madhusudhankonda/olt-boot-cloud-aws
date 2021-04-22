@@ -74,3 +74,15 @@ The `olt-boot-cloud-aws` project uses AWS SDK 1.x version with Spring Cloud AWS 
 
 On the other hand [`olt-boot-cloud-aws-v2`](https://github.com/madhusudhankonda/olt-boot-cloud-aws-v2) uses AWS SDK 2.x version with Spring Boot 2.4.5 (no Cloud AWS support yet for AWS SDK 2.x). My intention is to provide a mechanism to work with AWS SDK 2.x version within Spring Applications untill the Spring Cloud AWS new release comes along.
 
+## Resources
+
+### Spring
+- (Spring Cloud AWS New Home (awspring.io))[https://docs.awspring.io/spring-cloud-aws/docs/2.3.1/reference/html/index.html]
+- (Spring Cloud AWS Old Home)[https://spring.io/projects/spring-cloud-aws]
+### AWS
+- (AWS Home Console)[https://aws.amazon.com/]
+- (AWS SDK for Java Home)[https://docs.aws.amazon.com/sdk-for-java/index.html]
+- (AWS SDK for Java 1.x Developer Guide)[https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html]
+- (AWS SDK for Java 1.x JavaDoc/API Reference)[https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/]
+- (AWS SDK for Java 2.x Developer Guide)[https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html]
+- (AWS SDK for Java 2.x JavaDoc/API Reference)[https://sdk.amazonaws.com/java/api/latest/]
