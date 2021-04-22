@@ -1,4 +1,4 @@
-# olt-boot-cloud-aws
+# Getting Started with Spring Boot, Cloud and AWS
 Getting Started with Spring Boot, Cloud and AWS - online Live Training at https://safaribooksonline.comC
 
 ## Setup/Prerequisites
@@ -31,8 +31,12 @@ Now that we have our AWS Account created and keys generated, it's time to config
 
 The AWS SDK for Java expects us to provide few properties - access key, secret key and region. There are multitude ways of configuring our SDK to pick up these keys, one way being asking AWS CLI to configure us with credentials file as pofiles in our local home directory. Let's follow the steps to get the AWS CLI downloaded and installed. Once it's ready, we use it to configure our environment.
 
-#### Download AWS CLI
-Based on your OS, download your CLI from here
+#### Download and install AWS CLI
+Depending OS, download your CLI binary from here [AWS CLI](https://aws.amazon.com/cli/). 
+
+Once downloaded, follow the instructions to get it installed. Issue `aws s3 ls` command - you may see a list (or none) of S3 buckets as shown here in the image:![S3 buckets list](https://user-images.githubusercontent.com/1698230/115707485-c14d6a80-a366-11eb-87f5-adc2813162eb.png)
+
+
 
 
 
