@@ -13,4 +13,8 @@ Visit [Amazon's AWS](https://aws.amazon.com/) and register. You can use Free Tie
 
 #### AWS Keys for programmatic access
 
-Our programs interact with the AWS services programmatically. We need to create a user/group with appropriate access controls. Head over to IAM service and follow the instructions
+Our programs interact with the AWS services programmatically. We need to create a user/group with appropriate access controls. Head over to [IAM](https://console.aws.amazon.com/iam/) service and follow the instructions to create a user, group and permissions. 
+Click on Users -> Add User. Select Prgorammatic Acess and navigate to next page
+![image](https://user-images.githubusercontent.com/1698230/115702928-6bc28f00-a361-11eb-9ebd-67fbbc4129fc.png)
+
+
