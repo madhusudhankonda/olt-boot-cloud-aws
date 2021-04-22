@@ -18,9 +18,12 @@ Our programs interact with the AWS services programmatically. We need to create 
 ![Adding a New User](https://user-images.githubusercontent.com/1698230/115702928-6bc28f00-a361-11eb-9ebd-67fbbc4129fc.png)
 - Select Prgorammatic Acess and navigate to next page to create a group.
 - Click on the Create Group ![image](https://user-images.githubusercontent.com/1698230/115703310-e4295000-a361-11eb-9647-0e4e1121f6da.png)
-- Provide the group name and add as Administrator (be aware - this will grant the full access to all of the services - make sure you make granular level access instead)
+- Provide the group name and add as Administrator (be aware - this will grant the full access to all of the services - make sure you make granular level access instead). Navigate to next page, which enables the Tags. We can ignore tags for these exercises.
 ![Administrative Group](https://user-images.githubusercontent.com/1698230/115703586-35394400-a362-11eb-8bc7-ea56c771f853.png)
-- 
+- Ignore Tags and go to Review page. Once satisfied, click on the Create User button, which will create the user and outputs the keys to the console as shown below:
+- ![New User](https://user-images.githubusercontent.com/1698230/115704052-c7414c80-a362-11eb-8aab-78155e97773e.png)
+
+- As you can see this page outputs the access and secret keys. Copy them to your running notes. These key are only shown once - you cannot retive them once you navigate away from this page. Of coruse, you can re-create them which will generate a brand new set of keys anyway. It is a good idea to save, download or email them to yourself. Click on the Download as CSV button to download or follow instructions to receive them by email
 
 
 
