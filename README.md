@@ -1,9 +1,14 @@
 # Getting Started with Spring Boot, Cloud and AWS
 Getting Started with Spring Boot, Cloud and AWS - online Live Training at https://safaribooksonline.com
 
-##Course Schedule:
-[22 April 2021](https://learning.oreilly.com/attend/getting-started-with-spring-boot-spring-cloud-and-aws/0636920053451/0636920053450/)
-[25 June 2021](https://learning.oreilly.com/attend/getting-started-with-spring-boot-spring-cloud-and-aws/0636920053451/0636920054381/)
+This project is based on Spring Cloud AWS 2.3.1, Spring Boot 2.4.5 and AWS SDK 1.X
+
+For AWS SDK 2.x (no Spring Cloud AWS support yet), visit my [second repository] (https://github.com/madhusudhankonda/olt-boot-cloud-aws-v2)
+
+## Course Schedule:
+* [22 April 2021](https://learning.oreilly.com/attend/getting-started-with-spring-boot-spring-cloud-and-aws/0636920053451/0636920053450/)
+
+* [25 June 2021](https://learning.oreilly.com/attend/getting-started-with-spring-boot-spring-cloud-and-aws/0636920053451/0636920054381/)
 
 ## Setup/Prerequisites
 The following tools/frameworks are expected to be setup as part of this course. 
