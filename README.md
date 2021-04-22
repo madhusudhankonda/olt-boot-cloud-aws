@@ -1,12 +1,18 @@
 # Getting Started with Spring Boot, Cloud and AWS
-Getting Started with Spring Boot, Cloud and AWS - online Live Training at https://safaribooksonline.comC
+Getting Started with Spring Boot, Cloud and AWS - online Live Training at https://safaribooksonline.com
+
+##Course Schedule:
+[22 April 2021](https://learning.oreilly.com/attend/getting-started-with-spring-boot-spring-cloud-and-aws/0636920053451/0636920053450/)
+[25 June 2021](https://learning.oreilly.com/attend/getting-started-with-spring-boot-spring-cloud-and-aws/0636920053451/0636920054381/)
 
 ## Setup/Prerequisites
 The following tools/frameworks are expected to be setup as part of this course. 
 
 * AWS Account: We need to create an AWS account for consuming the services. We can surely use Free Tier for our training  
-* IDE for development: I work on IntelliJ IDEA but any Java IDE should be okay)
 * AWS CLI: We need to use the Command Line Interface to configure our AWS access
+* IDE for development: I work on IntelliJ IDEA but any Java IDE should be okay)
+
+Let's look at these steps in the next few sections.
 
 ### AWS Account
 Visit [Amazon's AWS](https://aws.amazon.com/) and register. You can use Free Tier for most/all of the training sessions. Once you;ve completed the registration, visit [AWS Console Home] (https://console.aws.amazon.com) to log in. Once you are logged in, next step is to create keys for programmatic access using AWS's Identity and Access Management(IAM) service, described in the next section.
@@ -52,6 +58,15 @@ CLI will create a `.aws` folder in your home directory.
 Once the configuration is done, you should see two files in the user's home directory `~/.aws` created by CLI - the `credentials` and `config` file - keys and region documented in those files respectively. If you are not sure where these are, you can visit <your_home_directory>/.aws folder
 
 
+## IDE for development
 
+All the source code is available on GitHub, so using your favourite IDE, you can clone the repository. I've used IntelliJ IDE for the development purposes but there's no reason why you can't use any other IDE. The projects are maven based. 
 
+## Versions
+
+There are two variants of the projects that I had developed `olt-boot-cloud-aws` and `olt-boot-cloud-aws-v2`. The fundamental difference is the AWS SDK's version. 
+
+The `olt-boot-cloud-aws` project uses AWS SDK 1.x version with Spring Cloud AWS 2.3.1 and Spring Boot 2.4.5 (there's a new variat of Spring cloud - awspring - see details below)
+
+On the other hand `olt-boot-cloud-aws` uses AWS SDK 2.x version with Spring Boot 2.4.5 (no Cloud AWS support yet for AWS SDK 2.x). My intention is to provide a mechanism to work with AWS SDK 2.x version within Spring Applications untill the Spring Cloud AWS new release comes along
 
