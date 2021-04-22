@@ -1,9 +1,8 @@
 # Getting Started with Spring Boot, Cloud and AWS
 Getting Started with Spring Boot, Cloud and AWS - online Live Training at https://safaribooksonline.com
 
-This project is based on Spring Cloud AWS 2.3.1, Spring Boot 2.4.5 and AWS SDK 1.X
-
-For AWS SDK 2.x (no Spring Cloud AWS support yet), visit my [second repository] (https://github.com/madhusudhankonda/olt-boot-cloud-aws-v2)
+* This project is based on Spring Cloud AWS 2.3.1, Spring Boot 2.4.5 and AWS SDK 1.X
+* For AWS SDK 2.x (no Spring Cloud AWS support yet), visit my [second repository] (https://github.com/madhusudhankonda/olt-boot-cloud-aws-v2)
 
 ## Course Schedule:
 * [22 April 2021](https://learning.oreilly.com/attend/getting-started-with-spring-boot-spring-cloud-and-aws/0636920053451/0636920053450/)
@@ -73,5 +72,5 @@ There are two variants of the projects that I had developed `olt-boot-cloud-aws`
 
 The `olt-boot-cloud-aws` project uses AWS SDK 1.x version with Spring Cloud AWS 2.3.1 and Spring Boot 2.4.5 (there's a new variat of Spring cloud - awspring - see details below)
 
-On the other hand `olt-boot-cloud-aws` uses AWS SDK 2.x version with Spring Boot 2.4.5 (no Cloud AWS support yet for AWS SDK 2.x). My intention is to provide a mechanism to work with AWS SDK 2.x version within Spring Applications untill the Spring Cloud AWS new release comes along
+On the other hand [`olt-boot-cloud-aws-v2`](https://github.com/madhusudhankonda/olt-boot-cloud-aws-v2) uses AWS SDK 2.x version with Spring Boot 2.4.5 (no Cloud AWS support yet for AWS SDK 2.x). My intention is to provide a mechanism to work with AWS SDK 2.x version within Spring Applications untill the Spring Cloud AWS new release comes along.
 
