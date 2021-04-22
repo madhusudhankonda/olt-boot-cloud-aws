@@ -94,7 +94,8 @@ On the other hand [`olt-boot-cloud-aws-v2`](https://github.com/madhusudhankonda/
 
 ## Training Code
 | AWS Service | GitHub Code |
-[Simple Queue Service](https://aws.amazon.com/sqs)|[SQS Code](https://github.com/madhusudhankonda/olt-boot-cloud-aws/tree/main/sqs)
+|--------------|--------------|
+|Simple Queue Service|[SQS Code](https://github.com/madhusudhankonda/olt-boot-cloud-aws/tree/main/sqs)|
 
 ### AWS Services
 - [Identity and Access Management](https://aws.amazon.com/iam)
