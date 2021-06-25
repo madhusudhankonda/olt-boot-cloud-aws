@@ -62,7 +62,7 @@ CLI will create a `.aws` folder in your home directory.
 Once the configuration is done, you should see two files in the user's home directory `~/.aws` created by CLI - the `credentials` and `config` file - keys and region documented in those files respectively. If you are not sure where these are, you can visit <your_home_directory>/.aws folder:
 
 ```
-➜  .aws aws configure
+$>aws configure
 AWS Access Key ID [None]: ****************.   <<provide your access key here>>
 AWS Secret Access Key [****************/djt]: <<provide your secret access key here>>
 Default region name [eu-west-2]:              <<provide your region here>>
