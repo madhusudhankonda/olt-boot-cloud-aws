@@ -44,7 +44,7 @@ public class SQSManager implements CommandLineRunner {
     }
     @Override
     public void run(String... args) throws Exception {
-        sendMessage("Hello, SQS World!");
+//        sendMessage("Hello, SQS World!");
     //  receive(QUEUE_NAME);
     }
 }
